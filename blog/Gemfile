@@ -14,13 +14,12 @@ gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
+
+
 # Windows ActiveRecord Fix
 gem 'coffee-script-source', '1.8.0'
 
-gem 'foundation-rails', '5.4.5' 
-
-
-
+gem 'foundation-rails', '5.4.5'
 
 
 # Use jquery as the JavaScript library
