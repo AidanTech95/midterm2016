@@ -3,7 +3,14 @@ class ArticlesController < ApplicationController
     @article = Article.new
   end
 
-  def index
+  def destroy
+    @article = Article.find(params[:id])
+    @article.destroy
+
+    redirect_to articles_path
+  end
+
+def index
     @articles = Article.all
   end
 
